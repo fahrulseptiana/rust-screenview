@@ -1,0 +1,13 @@
+[package]
+name = "screenview"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+bytemuck = { version = "1.24.0", features = ["derive"] }
+clap = { version = "4.5.51", features = ["derive"] }
+pollster = "0.3"
+wgpu = "0.19"
+windows-capture = "2.0.0-alpha.7"
+winit = "0.29"
